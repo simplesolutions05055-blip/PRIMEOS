@@ -33,6 +33,10 @@
     if(!ok){first.focus();return;}
     var g=function(id){return document.getElementById(id).value.trim();};
     var txt='שלום, אשמח לתאם הדגמה של PrimeOS.\nשם: '+g('dName')+'\nארגון: '+g('dOrg')+'\nתפקיד: '+g('dRole')+'\nטלפון: '+g('dPhone')+(g('dNote')?'\nהערה: '+g('dNote'):'');
+    /* the lead also goes straight into the PrimeOS CRM; WhatsApp stays as it was */
+    try{fetch('/api/lead',{method:'POST',keepalive:true,headers:{'content-type':'application/json'},
+      body:JSON.stringify({name:g('dName'),org:g('dOrg'),role:g('dRole'),phone:g('dPhone'),note:g('dNote'),
+        website:(f.querySelector('[name=website]')||{}).value||'',page:location.href})}).catch(function(){});}catch(_){}
     var done=document.getElementById('formDone'),wa=document.getElementById('waSend');
     wa.href='https://wa.me/972547712034?text='+encodeURIComponent(txt);
     done.hidden=false;wa.focus();});}

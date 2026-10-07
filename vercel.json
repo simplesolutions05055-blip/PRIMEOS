@@ -1,0 +1,10 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.primeos.co.il" }],
+      "destination": "https://primeos.co.il/:path*",
+      "permanent": true
+    }
+  ]
+}

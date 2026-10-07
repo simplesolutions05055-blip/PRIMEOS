@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+
+# מנועי חיפוש ומנועי AI מוזמנים לקרוא את האתר
+User-agent: Googlebot
+Allow: /
+User-agent: Bingbot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-SearchBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://primeos.co.il/sitemap.xml

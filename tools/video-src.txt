@@ -1,7 +1,5 @@
-n_v1s3.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6ac8f5ebd8cc2ccbd182daad-he-IL-Chirp3-HD-Sche.mp3
-n_v1phone.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6ac8f5ef32c405457f2cc7b8-he-IL-Chirp3-HD-Sche.mp3
-n_v1out.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6ac8f5f0d8cc2ccbd182dac5-he-IL-Chirp3-HD-Sche.mp3
-n_v2s2.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6ac8f5f2d8cc2ccbd182dad8-he-IL-Chirp3-HD-Sche.mp3
-n_v2s5.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6ac8f5f4a285d00d2adc3f20-he-IL-Chirp3-HD-Sche.mp3
-n_v3s2.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6ac8f5f632c405457f2cc810-he-IL-Chirp3-HD-Sche.mp3
-n_v3s5.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6ac8f5c232c405457f2cc6ca-he-IL-Chirp3-HD-Sche.mp3
+f_v2s1.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6ac8fd8532c405457f2ced4d-ea378d5e-341f-46e8-9.mp3
+f_v2s2.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6ac8fdd5d8cc2ccbd18301e4-ea378d5e-341f-46e8-9.mp3
+f_v2s3.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6ac8fd87a285d00d2adc6192-ea378d5e-341f-46e8-9.mp3
+f_v2s4.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6ac8fd8916700aa15f7c630d-ea378d5e-341f-46e8-9.mp3
+f_v2s5.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6ac8fdd6d8cc2ccbd18301eb-ea378d5e-341f-46e8-9.mp3

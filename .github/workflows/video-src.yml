@@ -1,0 +1,25 @@
+name: video-src
+on:
+  push:
+    branches: [video-src]
+    paths: [tools/video-src.txt, .github/workflows/video-src.yml]
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          mkdir -p vsrc
+          while read -r name url; do
+            [ -z "$name" ] && continue
+            curl -sSfL --retry 3 -o "vsrc/$name" "$url" || echo "FAIL $name" >> vsrc/fail.log
+          done < tools/video-src.txt
+          ls -la vsrc
+      - run: |
+          git config user.name "examples-bot"
+          git config user.email "examples-bot@users.noreply.github.com"
+          git add vsrc
+          git diff --cached --quiet || git commit -m "Fetch video sources [skip ci]"
+          git push

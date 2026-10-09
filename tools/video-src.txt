@@ -1,0 +1,15 @@
+v1s1.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6ac8e92132c405457f2c79a7-he-IL-Chirp3-HD-Sche.mp3
+v1s2.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6ac8e939a285d00d2adbf977-he-IL-Chirp3-HD-Sche.mp3
+v1s3.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6ac8e93ba285d00d2adbf97b-he-IL-Chirp3-HD-Sche.mp3
+v1s4.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6ac8e93d32c405457f2c79e5-he-IL-Chirp3-HD-Sche.mp3
+v1s5.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6ac8e93e32c405457f2c79ec-he-IL-Chirp3-HD-Sche.mp3
+v2s1.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6ac8e94032c405457f2c7a0a-he-IL-Chirp3-HD-Sche.mp3
+v2s2.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6ac8e94216700aa15f7bf2a5-he-IL-Chirp3-HD-Sche.mp3
+v2s3.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6ac8e944a285d00d2adbf9ab-he-IL-Chirp3-HD-Sche.mp3
+v2s4.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6ac8e94616700aa15f7bf2c0-he-IL-Chirp3-HD-Sche.mp3
+v2s5.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6ac8e94716700aa15f7bf2ca-he-IL-Chirp3-HD-Sche.mp3
+v3s1.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6ac8e949a285d00d2adbf9b9-he-IL-Chirp3-HD-Sche.mp3
+v3s2.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6ac8e94a16700aa15f7bf2d1-he-IL-Chirp3-HD-Sche.mp3
+v3s3.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6ac8e94cd8cc2ccbd1828f74-he-IL-Chirp3-HD-Sche.mp3
+v3s4.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6ac8e94e16700aa15f7bf2d5-he-IL-Chirp3-HD-Sche.mp3
+v3s5.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6ac8e94f16700aa15f7bf2da-he-IL-Chirp3-HD-Sche.mp3

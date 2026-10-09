@@ -23,7 +23,7 @@
     fb.forEach(function(x){x.setAttribute('aria-pressed',x===b?'true':'false');});
     document.querySelectorAll('[data-cat]').forEach(function(el){el.hidden=!(c==='all'||el.getAttribute('data-cat')===c);});});});}
 
-  /* demo form: validates, then hands the details to WhatsApp */
+  /* demo form: validates, then hands the details to an email */
   var f=document.getElementById('demoForm');
   if(f){f.addEventListener('submit',function(e){e.preventDefault();var ok=true,first=null;
     var rules={dName:function(v){return v.trim().length>1||'נא למלא שם מלא';},dOrg:function(v){return v.trim().length>1||'נא למלא את שם הרשות או הארגון';},
@@ -33,12 +33,12 @@
     if(!ok){first.focus();return;}
     var g=function(id){return document.getElementById(id).value.trim();};
     var txt='שלום, אשמח לתאם הדגמה של PrimeOS.\nשם: '+g('dName')+'\nארגון: '+g('dOrg')+'\nתפקיד: '+g('dRole')+'\nטלפון: '+g('dPhone')+(g('dNote')?'\nהערה: '+g('dNote'):'');
-    /* the lead also goes straight into the PrimeOS CRM; WhatsApp stays as it was */
+    /* the lead also goes straight into the PrimeOS CRM */
     try{fetch('/api/lead',{method:'POST',keepalive:true,headers:{'content-type':'application/json'},
       body:JSON.stringify({name:g('dName'),org:g('dOrg'),role:g('dRole'),phone:g('dPhone'),note:g('dNote'),
         website:(f.querySelector('[name=website]')||{}).value||'',page:location.href})}).catch(function(){});}catch(_){}
     var done=document.getElementById('formDone'),wa=document.getElementById('waSend');
-    wa.href='https://wa.me/972547712034?text='+encodeURIComponent(txt);
+    wa.href='mailto:simple.solutions05055@gmail.com?subject='+encodeURIComponent('תיאום הדגמה של PrimeOS - '+g('dOrg'))+'&body='+encodeURIComponent(txt);
     done.hidden=false;wa.focus();});}
 
   /* examples gallery: type tabs, in-view muted video loops, lightbox */
@@ -55,7 +55,7 @@
       show(tabs[0]);}
     /* videos load only when near the screen, play muted while visible */
     var vids=[].slice.call(document.querySelectorAll('.xg-card video'));
-    var on=function(v){if(!v.src){v.src=v.getAttribute('data-src');}if(!calm){var p=v.play();if(p&&p.catch)p.catch(function(){});v.parentNode.classList.add('playing');}};
+    var on=function(v){if(!v.src){v.src=v.getAttribute('data-src');}v.muted=true;var p=v.play();if(p&&p.catch)p.catch(function(){});v.parentNode.classList.add('playing');};
     var off=function(v){if(!v.paused)v.pause();v.parentNode.classList.remove('playing');};
     if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){
         if(e.isIntersecting&&e.target.offsetParent!==null)on(e.target);else off(e.target);});},{rootMargin:'120px 0px',threshold:.25});
@@ -67,7 +67,7 @@
       var visible=function(c){var li=c.closest('.xg-it');return !li.hidden&&c.offsetParent!==null;};
       var paint=function(){var c=list[at];if(!c)return;var lbl=c.getAttribute('aria-label').replace(/^(הגדלה|צפייה): /,'');stage.innerHTML='';
         if(c.hasAttribute('data-video')){var v=document.createElement('video');v.src=c.getAttribute('data-video');v.poster=c.getAttribute('data-poster');
-          v.controls=true;v.muted=true;v.loop=true;v.playsInline=true;v.setAttribute('aria-label',lbl);stage.appendChild(v);if(!calm){var p=v.play();if(p&&p.catch)p.catch(function(){});}}
+          v.controls=true;v.muted=true;v.loop=true;v.autoplay=true;v.playsInline=true;v.setAttribute('aria-label',lbl);stage.appendChild(v);var p=v.play();if(p&&p.catch)p.catch(function(){});}
         else{var im=new Image();im.src=c.getAttribute('data-full');im.alt=lbl;stage.appendChild(im);}
         cap.textContent=lbl+(list.length>1?' · '+(at+1)+' מתוך '+list.length:'');
         [].forEach.call(box.querySelectorAll('.xg-nav'),function(n){n.hidden=list.length<2;});};

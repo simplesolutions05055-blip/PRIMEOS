@@ -356,3 +356,52 @@ p{margin:0}
   .btn-row .btn{flex:1 1 100%}
   .brand b{font-size:21px}
 }
+
+/* ===== examples gallery (home) + example strips (service) ===== */
+.xg-top{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:20px}
+.xg-tabs{display:flex;flex-wrap:wrap;gap:8px}
+.xg-tabs button{font:inherit;font-family:var(--fd);font-weight:500;font-size:15px;padding:8px 16px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--ink-2);cursor:pointer;display:inline-flex;gap:7px;align-items:center;transition:background .2s,color .2s,border-color .2s}
+.xg-tabs button span{font-size:12.5px;min-width:22px;padding:1px 7px;border-radius:999px;background:var(--tint);color:var(--blue-ink)}
+.xg-tabs button[aria-selected="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.xg-tabs button[aria-selected="true"] span{background:rgba(255,255,255,.18);color:#fff}
+.xg-tabs button:focus-visible,.xg-card:focus-visible,.xg-box button:focus-visible{outline:3px solid var(--cyan);outline-offset:2px}
+.xg-note{font-size:13px;font-weight:500;color:var(--ink-3);background:var(--surface-2);border:1px solid var(--line);padding:4px 12px;border-radius:999px}
+.xg-grid,.xg-strip{list-style:none;margin:0;padding:0;display:grid;gap:14px}
+.xg-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+.xg-grid[data-type="deck"]{grid-template-columns:repeat(2,minmax(0,1fr))}
+.xg-grid[data-type="doc"],.xg-grid[data-type="video"]{grid-template-columns:repeat(3,minmax(0,1fr))}
+.xg-it[hidden]{display:none}
+.xg-card{all:unset;box-sizing:border-box;display:block;width:100%;position:relative;cursor:zoom-in;border-radius:var(--r-s);overflow:hidden;background:var(--bg-2);border:1px solid var(--line);box-shadow:var(--shadow-sm);transition:transform .25s,box-shadow .25s}
+.xg-card:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+.xg-card img,.xg-card video{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:cover}
+[data-xk="doc"] .xg-card img{aspect-ratio:3/4;object-fit:contain;background:#fff}
+[data-xk="deck"] .xg-card img{aspect-ratio:16/9}
+.xg-card.is-vid{cursor:pointer}
+.xg-play{position:absolute;inset-inline-start:10px;bottom:10px;width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:rgba(11,20,55,.6);color:#fff;backdrop-filter:blur(4px);transition:opacity .3s}
+.xg-play svg{width:18px;height:18px}
+.xg-card.playing .xg-play{opacity:.55}
+.xg-cta{display:flex;justify-content:center;margin-top:28px}
+.xg-strip{grid-template-columns:repeat(4,minmax(0,1fr));align-items:start;margin-top:22px}
+.xg-strip.one{grid-template-columns:minmax(0,1fr);margin-top:0;max-width:440px;margin-inline:auto}
+.xg-more{display:flex;align-items:center;gap:12px;margin-top:12px;font-size:14.5px}
+.xg-fig{margin-top:18px}
+/* lightbox */
+.xg-box{border:0;padding:0;background:transparent;max-width:min(92vw,1100px);max-height:92vh;width:auto;overflow:visible;color:#fff}
+.xg-box::backdrop{background:rgba(6,10,30,.86);backdrop-filter:blur(6px)}
+.xg-stage{display:grid;place-items:center}
+.xg-stage img,.xg-stage video{display:block;max-width:min(92vw,1100px);max-height:80vh;width:auto;height:auto;border-radius:14px;background:#0b1437;box-shadow:0 30px 80px -30px rgba(0,0,0,.8)}
+.xg-cap{margin:12px 0 0;text-align:center;font-size:15px;color:#E4E8FF}
+.xg-x,.xg-nav{position:fixed;width:46px;height:46px;border-radius:50%;border:1px solid rgba(255,255,255,.25);background:rgba(255,255,255,.12);color:#fff;display:grid;place-items:center;cursor:pointer}
+.xg-x svg,.xg-nav svg{width:22px;height:22px}
+.xg-x{top:18px;inset-inline-end:18px}
+.xg-nav{top:50%;transform:translateY(-50%)}
+.xg-prev{inset-inline-start:18px}.xg-next{inset-inline-end:18px}
+.xg-x:hover,.xg-nav:hover{background:rgba(255,255,255,.24)}
+@media (max-width:980px){.xg-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.xg-strip{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){
+ .xg-grid,.xg-grid[data-type="doc"],.xg-grid[data-type="video"]{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+ .xg-grid[data-type="deck"]{grid-template-columns:minmax(0,1fr)}
+ .xg-nav{top:auto;bottom:18px;transform:none}
+ .xg-stage img,.xg-stage video{max-height:72vh}
+}
+@media (prefers-reduced-motion:reduce){.xg-card:hover{transform:none}}

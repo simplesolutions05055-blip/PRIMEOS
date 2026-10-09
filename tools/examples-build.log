@@ -16,51 +16,51 @@ d-formal http=200 curl=0 size=436080
 d-data http=200 curl=0 size=677765
 d-designed http=200 curl=0 size=1690315
 s-cover http=200 curl=0 size=1105835
-s-rules http=200 curl=0 size=1083428
+s-rules http=200 curl=0 size=1543872
 v-race http=200 size=16775682
 v-festival http=200 size=17571934
 v-summer http=200 size=16531033
-total 5020
-drwxr-xr-x 2 runner runner    4096 Oct  9 08:49 .
-drwxr-xr-x 6 runner runner    4096 Oct  9 08:48 ..
--rw-r--r-- 1 runner runner   24526 Oct  9 08:49 d-data-s.webp
--rw-r--r-- 1 runner runner   72556 Oct  9 08:49 d-data.webp
--rw-r--r-- 1 runner runner   52364 Oct  9 08:49 d-designed-s.webp
--rw-r--r-- 1 runner runner  168736 Oct  9 08:49 d-designed.webp
--rw-r--r-- 1 runner runner   25436 Oct  9 08:49 d-formal-s.webp
--rw-r--r-- 1 runner runner   77424 Oct  9 08:49 d-formal.webp
--rw-r--r-- 1 runner runner   53130 Oct  9 08:49 g-centers-s.webp
--rw-r--r-- 1 runner runner  133162 Oct  9 08:49 g-centers.webp
--rw-r--r-- 1 runner runner   34754 Oct  9 08:49 g-cinema-s.webp
--rw-r--r-- 1 runner runner   88424 Oct  9 08:49 g-cinema.webp
--rw-r--r-- 1 runner runner   34056 Oct  9 08:49 g-classes-s.webp
--rw-r--r-- 1 runner runner   82024 Oct  9 08:49 g-classes.webp
--rw-r--r-- 1 runner runner   62902 Oct  9 08:49 g-festival-s.webp
--rw-r--r-- 1 runner runner  167822 Oct  9 08:49 g-festival.webp
--rw-r--r-- 1 runner runner   31722 Oct  9 08:49 g-food-s.webp
--rw-r--r-- 1 runner runner   79782 Oct  9 08:49 g-food.webp
--rw-r--r-- 1 runner runner   63572 Oct  9 08:49 g-hikes-s.webp
--rw-r--r-- 1 runner runner  173848 Oct  9 08:49 g-hikes.webp
--rw-r--r-- 1 runner runner   43200 Oct  9 08:49 g-league-s.webp
--rw-r--r-- 1 runner runner  115078 Oct  9 08:49 g-league.webp
--rw-r--r-- 1 runner runner   44186 Oct  9 08:49 g-openday-s.webp
--rw-r--r-- 1 runner runner  114832 Oct  9 08:49 g-openday.webp
--rw-r--r-- 1 runner runner   54652 Oct  9 08:49 g-race-s.webp
--rw-r--r-- 1 runner runner  143912 Oct  9 08:49 g-race.webp
--rw-r--r-- 1 runner runner   41400 Oct  9 08:49 g-recycle-s.webp
--rw-r--r-- 1 runner runner  102024 Oct  9 08:49 g-recycle.webp
--rw-r--r-- 1 runner runner   31448 Oct  9 08:49 g-seniors-s.webp
--rw-r--r-- 1 runner runner   78376 Oct  9 08:49 g-seniors.webp
--rw-r--r-- 1 runner runner   49036 Oct  9 08:49 g-summer-s.webp
--rw-r--r-- 1 runner runner  141648 Oct  9 08:49 g-summer.webp
--rw-r--r-- 1 runner runner   54124 Oct  9 08:49 g-traffic-s.webp
--rw-r--r-- 1 runner runner  152920 Oct  9 08:49 g-traffic.webp
--rw-r--r-- 1 runner runner   54112 Oct  9 08:49 g-water-s.webp
--rw-r--r-- 1 runner runner  144326 Oct  9 08:49 g-water.webp
--rw-r--r-- 1 runner runner   35854 Oct  9 08:49 s-cover-s.webp
--rw-r--r-- 1 runner runner   56152 Oct  9 08:49 s-cover.webp
--rw-r--r-- 1 runner runner   36480 Oct  9 08:49 s-rules-s.webp
--rw-r--r-- 1 runner runner   56668 Oct  9 08:49 s-rules.webp
--rw-r--r-- 1 runner runner  520414 Oct  9 08:49 v-festival.mp4
--rw-r--r-- 1 runner runner 1035032 Oct  9 08:49 v-race.mp4
--rw-r--r-- 1 runner runner  520090 Oct  9 08:49 v-summer.mp4
+total 5028
+drwxr-xr-x 2 runner runner    4096 Oct  9 08:52 .
+drwxr-xr-x 6 runner runner    4096 Oct  9 08:52 ..
+-rw-r--r-- 1 runner runner   24526 Oct  9 08:52 d-data-s.webp
+-rw-r--r-- 1 runner runner   72556 Oct  9 08:52 d-data.webp
+-rw-r--r-- 1 runner runner   52364 Oct  9 08:52 d-designed-s.webp
+-rw-r--r-- 1 runner runner  168736 Oct  9 08:52 d-designed.webp
+-rw-r--r-- 1 runner runner   25436 Oct  9 08:52 d-formal-s.webp
+-rw-r--r-- 1 runner runner   77424 Oct  9 08:52 d-formal.webp
+-rw-r--r-- 1 runner runner   53130 Oct  9 08:52 g-centers-s.webp
+-rw-r--r-- 1 runner runner  133162 Oct  9 08:52 g-centers.webp
+-rw-r--r-- 1 runner runner   34754 Oct  9 08:52 g-cinema-s.webp
+-rw-r--r-- 1 runner runner   88424 Oct  9 08:52 g-cinema.webp
+-rw-r--r-- 1 runner runner   34056 Oct  9 08:52 g-classes-s.webp
+-rw-r--r-- 1 runner runner   82024 Oct  9 08:52 g-classes.webp
+-rw-r--r-- 1 runner runner   62902 Oct  9 08:52 g-festival-s.webp
+-rw-r--r-- 1 runner runner  167822 Oct  9 08:52 g-festival.webp
+-rw-r--r-- 1 runner runner   31722 Oct  9 08:52 g-food-s.webp
+-rw-r--r-- 1 runner runner   79782 Oct  9 08:52 g-food.webp
+-rw-r--r-- 1 runner runner   63572 Oct  9 08:52 g-hikes-s.webp
+-rw-r--r-- 1 runner runner  173848 Oct  9 08:52 g-hikes.webp
+-rw-r--r-- 1 runner runner   43200 Oct  9 08:52 g-league-s.webp
+-rw-r--r-- 1 runner runner  115078 Oct  9 08:52 g-league.webp
+-rw-r--r-- 1 runner runner   44186 Oct  9 08:52 g-openday-s.webp
+-rw-r--r-- 1 runner runner  114832 Oct  9 08:52 g-openday.webp
+-rw-r--r-- 1 runner runner   54652 Oct  9 08:52 g-race-s.webp
+-rw-r--r-- 1 runner runner  143912 Oct  9 08:52 g-race.webp
+-rw-r--r-- 1 runner runner   41400 Oct  9 08:52 g-recycle-s.webp
+-rw-r--r-- 1 runner runner  102024 Oct  9 08:52 g-recycle.webp
+-rw-r--r-- 1 runner runner   31448 Oct  9 08:52 g-seniors-s.webp
+-rw-r--r-- 1 runner runner   78376 Oct  9 08:52 g-seniors.webp
+-rw-r--r-- 1 runner runner   49036 Oct  9 08:52 g-summer-s.webp
+-rw-r--r-- 1 runner runner  141648 Oct  9 08:52 g-summer.webp
+-rw-r--r-- 1 runner runner   54124 Oct  9 08:52 g-traffic-s.webp
+-rw-r--r-- 1 runner runner  152920 Oct  9 08:52 g-traffic.webp
+-rw-r--r-- 1 runner runner   54112 Oct  9 08:52 g-water-s.webp
+-rw-r--r-- 1 runner runner  144326 Oct  9 08:52 g-water.webp
+-rw-r--r-- 1 runner runner   35854 Oct  9 08:52 s-cover-s.webp
+-rw-r--r-- 1 runner runner   56152 Oct  9 08:52 s-cover.webp
+-rw-r--r-- 1 runner runner   39366 Oct  9 08:52 s-rules-s.webp
+-rw-r--r-- 1 runner runner   60544 Oct  9 08:52 s-rules.webp
+-rw-r--r-- 1 runner runner  520702 Oct  9 08:52 v-festival.mp4
+-rw-r--r-- 1 runner runner 1034166 Oct  9 08:52 v-race.mp4
+-rw-r--r-- 1 runner runner  520041 Oct  9 08:52 v-summer.mp4

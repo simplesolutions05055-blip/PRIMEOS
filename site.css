@@ -414,3 +414,38 @@ p{margin:0}
 .float-note .fn-th{width:46px;height:46px;border-radius:10px;object-fit:cover;flex:none;box-shadow:0 2px 8px rgba(11,20,55,.2)}
 .float-note .fn-th+.dot{position:absolute;right:46px;bottom:4px;width:22px;height:22px;border-radius:8px;border:2px solid #fff}
 .float-note .fn-th+.dot svg{width:12px;height:12px}
+
+/* legal pages */
+.foot-legal{display:flex;flex-wrap:wrap;align-items:center;gap:6px 16px;width:100%}
+.foot-legal b{font-weight:600;color:var(--ink-3)}
+.foot-legal a{color:var(--ink-2);text-decoration:underline;text-underline-offset:3px}
+.legal-meta{margin-top:12px;font-size:15px;color:var(--ink-3)}
+.legal{max-width:78ch;margin-inline:auto;line-height:1.85}
+.legal>*+*{margin-top:16px}
+.legal h2{font-size:clamp(21px,2.2vw,26px);margin-top:40px;scroll-margin-top:96px}
+.legal h2.legal-part{font-size:clamp(24px,2.6vw,32px);margin-top:52px;padding-top:24px;border-top:2px solid var(--line)}
+.legal h3{font-size:18px;margin-top:24px}
+.legal p,.legal li{color:var(--ink-2)}
+.legal strong{color:var(--ink)}
+.legal ul,.legal ol{padding-inline-start:24px;display:flex;flex-direction:column;gap:8px;margin-block:12px 0}
+.legal .cl{display:flex;gap:10px}
+.legal .cl>.n{flex:none;min-width:3.2em;font-weight:600;color:var(--ink)}
+.legal .cl>div{min-width:0}
+.legal .cl>div>*+*{margin-top:10px}
+.legal .note{background:var(--surface-2);border:1px solid var(--line-2);border-radius:var(--r-s);padding:16px 18px}
+.legal mark.ph{background:#FFF3C4;color:var(--ink);padding:0 4px;border-radius:4px}
+.legal a[href^="mailto"]{overflow-wrap:anywhere}
+.legal-toc{background:var(--surface-2);border:1px solid var(--line-2);border-radius:var(--r-s);padding:4px 18px}
+.legal-toc summary{cursor:pointer;font-family:var(--fd);font-weight:600;padding:12px 0}
+.legal-toc ol{margin:0 0 14px;gap:4px}
+.legal-toc a{text-decoration:none}
+.legal-toc a:hover{text-decoration:underline}
+@media (max-width:560px){.legal .cl{flex-direction:column;gap:2px}.legal .cl>.n{min-width:0}}
+.legal h3.sh{font-size:clamp(20px,2vw,24px);margin-top:36px;scroll-margin-top:96px}
+.legal-toc li{list-style:none}
+.legal-toc li.tp{margin-top:8px}
+
+.xg-it{position:relative}
+.xg-hold{position:absolute;top:8px;inset-inline-end:8px;z-index:2;width:34px;height:34px;display:grid;place-items:center;border:0;border-radius:50%;background:rgba(10,20,40,.72);color:#fff;cursor:pointer;padding:0}
+.xg-hold svg{width:16px;height:16px}
+.xg-hold:focus-visible{outline:3px solid var(--cyan);outline-offset:2px}

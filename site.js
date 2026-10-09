@@ -55,7 +55,12 @@
       show(tabs[0]);}
     /* videos load only when near the screen, play muted while visible */
     var vids=[].slice.call(document.querySelectorAll('.xg-card video'));
-    var on=function(v){if(!v.src){v.src=v.getAttribute('data-src');}v.muted=true;var p=v.play();if(p&&p.catch)p.catch(function(){});v.parentNode.classList.add('playing');};
+    var on=function(v){if(v._held)return;if(!v.src){v.src=v.getAttribute('data-src');}v.muted=true;var p=v.play();if(p&&p.catch)p.catch(function(){});v.parentNode.classList.add('playing');};
+    /* pause/play toggle next to each autoplaying card (WCAG 2.2.2) */
+    vids.forEach(function(v){var li=v.closest('.xg-it');if(!li)return;var b=document.createElement('button');b.type='button';b.className='xg-hold';
+      var set=function(){b.setAttribute('aria-pressed',v._held?'true':'false');b.setAttribute('aria-label',v._held?'הפעלת הסרטון':'עצירת הסרטון');
+        b.innerHTML=v._held?'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>':'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h4v14H7zM13 5h4v14h-4z" fill="currentColor"/></svg>';};
+      set();b.addEventListener('click',function(e){e.stopPropagation();v._held=!v._held;set();if(v._held)off(v);else on(v);});li.appendChild(b);});
     var off=function(v){if(!v.paused)v.pause();v.parentNode.classList.remove('playing');};
     if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){
         if(e.isIntersecting&&e.target.offsetParent!==null)on(e.target);else off(e.target);});},{rootMargin:'120px 0px',threshold:.25});

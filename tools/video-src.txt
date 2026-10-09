@@ -1,2 +1,7 @@
-music1.mp3 https://media.kolbo.ai/kolboai-media/generated-music/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/PrimeOS-explainer-be-52d0a385-59cb-4ecb-aef7-47fc94227c04-chirp-hawk%20-%20Track%201.mp3
-music2.mp3 https://media.kolbo.ai/kolboai-media/generated-music/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/PrimeOS-explainer-be-a502240f-97bb-4633-bf07-8c71e9e7db44-chirp-hawk%20-%20Track%202.mp3
+n_v1s3.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6ac8f5ebd8cc2ccbd182daad-he-IL-Chirp3-HD-Sche.mp3
+n_v1phone.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6ac8f5ef32c405457f2cc7b8-he-IL-Chirp3-HD-Sche.mp3
+n_v1out.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6ac8f5f0d8cc2ccbd182dac5-he-IL-Chirp3-HD-Sche.mp3
+n_v2s2.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6ac8f5f2d8cc2ccbd182dad8-he-IL-Chirp3-HD-Sche.mp3
+n_v2s5.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6ac8f5f4a285d00d2adc3f20-he-IL-Chirp3-HD-Sche.mp3
+n_v3s2.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6ac8f5f632c405457f2cc810-he-IL-Chirp3-HD-Sche.mp3
+n_v3s5.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6ac8f5c232c405457f2cc6ca-he-IL-Chirp3-HD-Sche.mp3

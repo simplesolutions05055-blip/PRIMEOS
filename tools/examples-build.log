@@ -1,0 +1,70 @@
+g-summer http=200 curl=0 size=1794696
+g-traffic http=200 curl=0 size=1991154
+g-food http=200 curl=0 size=1729728
+g-centers http=200 curl=0 size=2115759
+g-water http=200 curl=0 size=2024422
+g-hikes http=200 curl=0 size=2306779
+g-festival http=200 curl=0 size=2059698
+g-race http=200 curl=0 size=2107557
+g-cinema http=200 curl=0 size=1597087
+g-classes http=200 curl=0 size=1516407
+g-openday http=200 curl=0 size=1750571
+g-seniors http=200 curl=0 size=1633633
+g-league http=200 curl=0 size=1911469
+g-recycle http=200 curl=0 size=1571377
+d-formal http=200 curl=0 size=436080
+d-data http=200 curl=0 size=677765
+d-designed http=200 curl=0 size=1690315
+s-cover http=200 curl=0 size=1105835
+s-rules http=200 curl=0 size=1083428
+v-race http=200 size=16775682
+curl: (3) URL rejected: Malformed input to a URL function
+https://media.kolbo.ai/kolboai-media/generated-videos/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/Festival-lights-twinkle-orches-6ac7ddb9291a9f5c19d2e3aa-v25-turbo-standard-i.mp4 http=000 size=
+[in#0 @ 0x56478d66bf00] Error opening input: No such file or directory
+Error opening input file /tmp/tmp.2WMFOG9avi/https://media.kolbo.ai/kolboai-media/generated-videos/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/Festival-lights-twinkle-orches-6ac7ddb9291a9f5c19d2e3aa-v25-turbo-standard-i.mp4.mp4.
+Error opening input files: No such file or directory
+ffmpeg-fail https://media.kolbo.ai/kolboai-media/generated-videos/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/Festival-lights-twinkle-orches-6ac7ddb9291a9f5c19d2e3aa-v25-turbo-standard-i.mp4
+v-summer http=200 size=16531033
+total 4508
+drwxr-xr-x 2 runner runner    4096 Oct  9 08:48 .
+drwxr-xr-x 6 runner runner    4096 Oct  9 08:48 ..
+-rw-r--r-- 1 runner runner   24526 Oct  9 08:48 d-data-s.webp
+-rw-r--r-- 1 runner runner   72556 Oct  9 08:48 d-data.webp
+-rw-r--r-- 1 runner runner   52364 Oct  9 08:48 d-designed-s.webp
+-rw-r--r-- 1 runner runner  168736 Oct  9 08:48 d-designed.webp
+-rw-r--r-- 1 runner runner   25436 Oct  9 08:48 d-formal-s.webp
+-rw-r--r-- 1 runner runner   77424 Oct  9 08:48 d-formal.webp
+-rw-r--r-- 1 runner runner   53130 Oct  9 08:48 g-centers-s.webp
+-rw-r--r-- 1 runner runner  133162 Oct  9 08:48 g-centers.webp
+-rw-r--r-- 1 runner runner   34754 Oct  9 08:48 g-cinema-s.webp
+-rw-r--r-- 1 runner runner   88424 Oct  9 08:48 g-cinema.webp
+-rw-r--r-- 1 runner runner   34056 Oct  9 08:48 g-classes-s.webp
+-rw-r--r-- 1 runner runner   82024 Oct  9 08:48 g-classes.webp
+-rw-r--r-- 1 runner runner   62902 Oct  9 08:48 g-festival-s.webp
+-rw-r--r-- 1 runner runner  167822 Oct  9 08:48 g-festival.webp
+-rw-r--r-- 1 runner runner   31722 Oct  9 08:48 g-food-s.webp
+-rw-r--r-- 1 runner runner   79782 Oct  9 08:48 g-food.webp
+-rw-r--r-- 1 runner runner   63572 Oct  9 08:48 g-hikes-s.webp
+-rw-r--r-- 1 runner runner  173848 Oct  9 08:48 g-hikes.webp
+-rw-r--r-- 1 runner runner   43200 Oct  9 08:48 g-league-s.webp
+-rw-r--r-- 1 runner runner  115078 Oct  9 08:48 g-league.webp
+-rw-r--r-- 1 runner runner   44186 Oct  9 08:48 g-openday-s.webp
+-rw-r--r-- 1 runner runner  114832 Oct  9 08:48 g-openday.webp
+-rw-r--r-- 1 runner runner   54652 Oct  9 08:48 g-race-s.webp
+-rw-r--r-- 1 runner runner  143912 Oct  9 08:48 g-race.webp
+-rw-r--r-- 1 runner runner   41400 Oct  9 08:48 g-recycle-s.webp
+-rw-r--r-- 1 runner runner  102024 Oct  9 08:48 g-recycle.webp
+-rw-r--r-- 1 runner runner   31448 Oct  9 08:48 g-seniors-s.webp
+-rw-r--r-- 1 runner runner   78376 Oct  9 08:48 g-seniors.webp
+-rw-r--r-- 1 runner runner   49036 Oct  9 08:48 g-summer-s.webp
+-rw-r--r-- 1 runner runner  141648 Oct  9 08:48 g-summer.webp
+-rw-r--r-- 1 runner runner   54124 Oct  9 08:48 g-traffic-s.webp
+-rw-r--r-- 1 runner runner  152920 Oct  9 08:48 g-traffic.webp
+-rw-r--r-- 1 runner runner   54112 Oct  9 08:48 g-water-s.webp
+-rw-r--r-- 1 runner runner  144326 Oct  9 08:48 g-water.webp
+-rw-r--r-- 1 runner runner   35854 Oct  9 08:48 s-cover-s.webp
+-rw-r--r-- 1 runner runner   56152 Oct  9 08:48 s-cover.webp
+-rw-r--r-- 1 runner runner   36480 Oct  9 08:48 s-rules-s.webp
+-rw-r--r-- 1 runner runner   56668 Oct  9 08:48 s-rules.webp
+-rw-r--r-- 1 runner runner 1034166 Oct  9 08:48 v-race.mp4
+-rw-r--r-- 1 runner runner  520041 Oct  9 08:48 v-summer.mp4

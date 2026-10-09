@@ -65,15 +65,15 @@
     if(box&&typeof box.showModal==='function'){
       var stage=box.querySelector('.xg-stage'),cap=box.querySelector('.xg-cap'),list=[],at=0,from=null;
       var visible=function(c){var li=c.closest('.xg-it');return !li.hidden&&c.offsetParent!==null;};
-      var paint=function(){var c=list[at],lbl=c.getAttribute('aria-label').replace(/^(הגדלה|צפייה): /,'');stage.innerHTML='';
+      var paint=function(){var c=list[at];if(!c)return;var lbl=c.getAttribute('aria-label').replace(/^(הגדלה|צפייה): /,'');stage.innerHTML='';
         if(c.hasAttribute('data-video')){var v=document.createElement('video');v.src=c.getAttribute('data-video');v.poster=c.getAttribute('data-poster');
           v.controls=true;v.muted=true;v.loop=true;v.playsInline=true;v.setAttribute('aria-label',lbl);stage.appendChild(v);if(!calm){var p=v.play();if(p&&p.catch)p.catch(function(){});}}
         else{var im=new Image();im.src=c.getAttribute('data-full');im.alt=lbl;stage.appendChild(im);}
         cap.textContent=lbl+(list.length>1?' · '+(at+1)+' מתוך '+list.length:'');
         [].forEach.call(box.querySelectorAll('.xg-nav'),function(n){n.hidden=list.length<2;});};
-      var group=function(c){var root=c.closest('.xg-grid,.xg-strip');return [].slice.call(root.querySelectorAll('.xg-card')).filter(visible);};
+      var group=function(c){var root=c.closest('.xg-grid,.xg-strip');var g=root?[].slice.call(root.querySelectorAll('.xg-card')).filter(visible):[];return g.length?g:[c];};
       cards.forEach(function(c){c.addEventListener('click',function(){list=group(c);at=Math.max(0,list.indexOf(c));from=c;paint();box.showModal();});});
-      var step=function(d){at=(at+d+list.length)%list.length;paint();};
+      var step=function(d){if(!box.open||list.length<2)return;at=(at+d+list.length)%list.length;paint();};
       box.addEventListener('click',function(e){var b=e.target.closest('[data-xg]');if(b){var a=b.getAttribute('data-xg');
           if(a==='close')box.close();else step(a==='next'?1:-1);return;}
         if(e.target===box||e.target===stage)box.close();});

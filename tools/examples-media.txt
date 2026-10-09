@@ -16,7 +16,7 @@ img d-formal https://media.kolbo.ai/kolboai-media/generated-images/69c033b18400d
 img d-data https://media.kolbo.ai/kolboai-media/generated-images/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/Flat-front-view-of-a-sing-6ac7da94643c61b48626fcc7-gpt-image-2.png
 img d-designed https://media.kolbo.ai/kolboai-media/generated-images/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/Flat-front-view-of-a-sing-6ac7da93291a9f5c19d2d476-gpt-image-2.png
 img s-cover https://media.kolbo.ai/kolboai-media/generated-images/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/A-single-169-presentation-6ac7daa0643c61b48626fd6e-gpt-image-2.png
-img s-rules https://media.kolbo.ai/kolboai-media/generated-images/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/A-single-169-presentation-6ac7daa0291a9f5c19d2d501-gpt-image-2.png
+img s-rules https://media.kolbo.ai/kolboai-media/generated-images/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/A-single-169-presentation-6ac8aac6b50cd19c0c04d5c2-gpt-image-2.png
 vid v-race https://media.kolbo.ai/kolboai-media/generated-videos/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/Runners-in-the-background-phot-6ac7ddb72d353b6ffb0a57e3-v25-turbo-standard-i.mp4
 vid v-festival https://media.kolbo.ai/kolboai-media/generated-videos/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/Festival-lights-twinkle-orches-6ac7ddb9291a9f5c19d2e3aa-v25-turbo-standard-i.mp4
 vid v-summer https://media.kolbo.ai/kolboai-media/generated-videos/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/String-lights-flicker-the-band-6ac7ddb9643c61b486270c69-v25-turbo-standard-i.mp4

@@ -13,7 +13,7 @@ while read -r kind name url; do
     cwebp -quiet -q 78 -resize "$s" 0 "$tmp/$name.png" -o "$out/$name-s.webp" 2>>"$log" || echo "cwebp-s-fail $name" >> "$log"
   else
     code=$(curl -sSL --retry 3 -w '%{http_code}' -A 'Mozilla/5.0' "$url" -o "$tmp/$name.mp4" 2>>"$log"); echo "$name http=$code size=$(stat -c%s "$tmp/$name.mp4" 2>/dev/null)" >> "$log"
-    ffmpeg -loglevel error -y -i "$tmp/$name.mp4" -an -vf "scale='min(720,iw)':-2" -c:v libx264 -preset slow -crf 27 -pix_fmt yuv420p -movflags +faststart "$out/$name.mp4" 2>>"$log" || echo "ffmpeg-fail $name" >> "$log"
+    ffmpeg -nostdin -loglevel error -y -i "$tmp/$name.mp4" -an -vf "scale='min(720,iw)':-2" -c:v libx264 -preset slow -crf 27 -pix_fmt yuv420p -movflags +faststart "$out/$name.mp4" 2>>"$log" || echo "ffmpeg-fail $name" >> "$log"
   fi
   echo "ok $name"
 done < tools/examples-media.txt

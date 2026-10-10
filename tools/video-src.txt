@@ -1,5 +1,7 @@
-s_v2s1.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6ac90ad4a285d00d2adc91e0-he-IL-Chirp3-HD-Sula.mp3
-s_v2s2.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6ac90ad5d8cc2ccbd18336a1-he-IL-Chirp3-HD-Sula.mp3
-s_v2s3.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6ac90ad932c405457f2d1d9c-he-IL-Chirp3-HD-Sula.mp3
-s_v2s4.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6ac90ada16700aa15f7c9508-he-IL-Chirp3-HD-Sula.mp3
-s_v2s5.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6ac90adb32c405457f2d1dad-he-IL-Chirp3-HD-Sula.mp3
+v4s1.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6aca7d4012266996ff58e9af-he-IL-Chirp3-HD-Sula.mp3
+v4s2.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6aca7d4188769762c4ac4807-he-IL-Chirp3-HD-Sula.mp3
+v4s3.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6aca7d432c3a65e985681bae-he-IL-Chirp3-HD-Sula.mp3
+v4s4.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6aca7d4412266996ff58e9e3-he-IL-Chirp3-HD-Sula.mp3
+v4s5.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6aca7d4677c7bff6598eb072-he-IL-Chirp3-HD-Sula.mp3
+v4s6.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6aca7d4788769762c4ac4815-he-IL-Chirp3-HD-Sula.mp3
+v4s7.mp3 https://media.kolbo.ai/kolboai-media/generated-text-to-speech/69c033b18400d38997e63d00/6ac613a941d3a9f39e6e2cee/tts-6aca7d492c3a65e985681beb-he-IL-Chirp3-HD-Sula.mp3

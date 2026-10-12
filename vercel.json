@@ -2,9 +2,52 @@
   "redirects": [
     {
       "source": "/:path*",
-      "has": [{ "type": "host", "value": "www.primeos.co.il" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "www.primeos.co.il"
+        }
+      ],
       "destination": "https://primeos.co.il/:path*",
       "permanent": true
+    },
+    {
+      "source": "/pages/:path*",
+      "destination": "/:path*",
+      "permanent": true
     }
-  ]
+  ],
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/api/seo-page?p=index"
+    },
+    {
+      "source": "/sitemap.xml",
+      "destination": "/api/seo-sitemap"
+    },
+    {
+      "source": "/articles/:slug",
+      "destination": "/api/seo-article?slug=:slug"
+    },
+    {
+      "source": "/:key([a-f0-9]{32}).txt",
+      "destination": "/api/seo-indexnow?key=:key"
+    },
+    {
+      "source": "/:page([a-z0-9-]+).html",
+      "destination": "/api/seo-page?p=:page"
+    }
+  ],
+  "functions": {
+    "api/seo-page.js": {
+      "includeFiles": "pages/**"
+    },
+    "api/seo-article.js": {
+      "includeFiles": "pages/**"
+    },
+    "api/seo-sitemap.js": {
+      "includeFiles": "pages/**"
+    }
+  }
 }

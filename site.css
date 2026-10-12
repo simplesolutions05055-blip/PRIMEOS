@@ -449,3 +449,7 @@ p{margin:0}
 .xg-hold{position:absolute;top:8px;inset-inline-end:8px;z-index:2;width:34px;height:34px;display:grid;place-items:center;border:0;border-radius:50%;background:rgba(10,20,40,.72);color:#fff;cursor:pointer;padding:0}
 .xg-hold svg{width:16px;height:16px}
 .xg-hold:focus-visible{outline:3px solid var(--cyan);outline-offset:2px}
+
+/* SIMPLE SEO: cover for articles published from the feed (no photo) */
+.a-card .cov-seo{display:flex;align-items:flex-end;padding:18px 20px;background:var(--grad);color:#fff}
+.a-card .cov-seo span{font-weight:700;font-size:clamp(17px,1.6vw,20px);line-height:1.35;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}

@@ -1,2 +1,5 @@
 tools/
 .github/
+index.php
+front-page.php
+functions.php
